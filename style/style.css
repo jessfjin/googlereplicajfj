@@ -102,3 +102,46 @@ body{
 	margin-right: 60px;	
 	float: right;
 }
+
+/*  Added on Sun 12/11/16 to test 
+out Responsive Design elements */
+@media (max-width: 800px) {
+	.search-box img { 
+		width: 45%;
+	}	
+	.search-box input {
+		width: 65%;
+	}
+	.bottom-tab {
+		word-spacing: 10px;
+	}
+	.top-tab li img {
+		width: 75%;
+	}
+}
+
+@media (max-width: 500px) {
+	.bottom-tab {
+		word-spacing: 5px;
+		margin-left: -10px;
+		margin-right: 30px;
+	}
+	.LsideLinks {
+		margin-left: 8px;
+		padding-left: 5px;
+		margin-right: 1px; 
+	}
+	.RsideLinks {
+		margin-left: 1px;
+		margin-right: 13px;
+	}
+}
+
+@media (max-width: 350px) {
+	.LsideLinks {
+		display: none;
+	}
+	.RsideLinks {
+		display: none;
+	}
+}
